@@ -219,12 +219,12 @@ def _plot(CAMPAIGN=1, planets=True, clusters=True, moving=True, extended=True, m
 
     for extension in ['png', 'eps']:
         output_fn = 'output/k2-c{:02}-field-notitle.{}'.format(CAMPAIGN, extension)
-        pl.savefig(output_fn, dpi=100)
+        pl.savefig(output_fn, dpi=300)
 
     pl.suptitle('K2 Campaign {}'.format(CAMPAIGN), fontsize=44)
     for extension in ['png', 'eps']:
         output_fn = 'output/k2-c{:02}-field.{}'.format(CAMPAIGN, extension)
-        pl.savefig(output_fn, dpi=100)
+        pl.savefig(output_fn, dpi=300)
     pl.close()
 
 

@@ -38,12 +38,12 @@ pl.tight_layout()
 for extension in ['png', 'eps']:
     output_fn = 'output/kepler-field-notitle.{}'.format(extension)
     print('Writing {}'.format(output_fn))
-    pl.savefig(output_fn, dpi=100)
+    pl.savefig(output_fn, dpi=300)
 
 pl.suptitle('Kepler field', fontsize=44)
 for extension in ['png', 'eps']:
     output_fn = 'output/kepler-field.{}'.format(extension)
     print('Writing {}'.format(output_fn))
-    pl.savefig(output_fn, dpi=100)
+    pl.savefig(output_fn, dpi=300)
 
 pl.close()
